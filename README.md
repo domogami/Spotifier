@@ -4,18 +4,18 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  How to start development
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Start up the Spotifier Site**
 
     Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
     ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    # Install Gatsby CLI (Required to Run Development Server)
+    npm install -g gatsby-cli
     ```
 
 2.  **Start developing.**
@@ -23,8 +23,8 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    cd Spotifier/
+    gatsby develop
     ```
 
 3.  **Open the code and start customizing!**
@@ -47,8 +47,5 @@
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
