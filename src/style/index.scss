@@ -15,7 +15,10 @@ body {
   color: #fff;
 }
 h1 {
-    font-size: 2em;
+    font-size: 59px;
+}
+p {
+    font-size: 34px;
 }
 a {
     text-decoration: none;
@@ -25,4 +28,30 @@ a {
     color: #000;
     padding: 10px 30px;
     text-align: center;
+    border-radius: 40px;
+}
+.Blob {
+    width: 1211;
+    height: 1196;
+    position: absolute;
+    top: -400px;
+    right: -500px;
+}
+.Hero {
+    max-width: 1000px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.Hero p {
+    padding-bottom: 40px;
+    max-width: 500px;
+}
+.AlbumCover {
+    position: absolute;
+    width: 457px;
+    height: 457px;
+    left: 55%;
+    top: 182px;
+    filter: drop-shadow(20px 20px 100px rgba(0, 0, 0, 0.25));
+    border-radius: 43px;
 }
